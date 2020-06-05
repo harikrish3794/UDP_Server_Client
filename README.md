@@ -2,8 +2,9 @@
 Implementation of UDP Server and Client in C++
 
 ## Steps to get it up running
-1. Open **cmd** and browse to **UDP_Server/Debug** and run **UDP_Server.exe** (Server will wait to receive data).
-2. Open **cmd** and browse to **UDP_Client/Debug** and run **UDP_Client.exe** (Client will send data).
+1. Clone this project.
+2. Open **cmd** and browse to **UDP_Server/Debug** and run **UDP_Server.exe** (Server will wait to receive data).
+3. Open **cmd** and browse to **UDP_Client/Debug** and run **UDP_Client.exe** (Client will send data).
 
 ## Observation
 On the server you will see **DLR IS GREAT** is received 5 times. (See image : Server_Output.PNG)
