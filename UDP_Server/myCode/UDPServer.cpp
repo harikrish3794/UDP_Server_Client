@@ -20,7 +20,7 @@ UDPServer::UDPServer(int m_ipType, int m_dataType,  unsigned short m_port) : UDP
 
 int UDPServer::server_create_bind()
 {
-	// Create a server hint structure
+	// Create a server structure
 	this->getServer().sin_addr.S_un.S_addr = ADDR_ANY; // Us any IP address available on the machine
 	this->getServer().sin_family = this->getipType(); // Address format is IPv4
 	this->getServer().sin_port = htons(this->getport()); // Convert from little to big endian
