@@ -21,12 +21,16 @@ private:
 
 public:
 	UDPServer();
+	
 	//A parametrized constructor
 	UDPServer(int m_ipType, int m_dataType, unsigned short m_port);
+	
 	//Create server structure and bind the socket to it
 	int server_create_bind();
+	
 	//Function to receive data
 	bool receiveData();
+	
 	//Function to display the received data
 	void displayData();
 };
