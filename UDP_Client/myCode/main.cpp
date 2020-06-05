@@ -21,7 +21,7 @@ int main (void)
 	//Create socket for UDP
 	UDP_Client.createSocket();
 
-	//Create
+	//Create server
 	UDP_Client.create_Server();
 
 	//Sends "DLR IS GREAT" 10 times
